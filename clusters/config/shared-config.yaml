@@ -1,4 +1,4 @@
 clusters:
-- name: in-cluster
+- name: t4
   server: https://kubernetes.default.svc
-  env: dev
+  env: t4
