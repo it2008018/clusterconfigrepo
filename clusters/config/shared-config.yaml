@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: cluster1-config
+  name: cluster2-config
   namespace: argocd
 data:
   cluster: |
