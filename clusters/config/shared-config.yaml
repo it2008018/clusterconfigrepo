@@ -1,4 +1,10 @@
-clusters:
-- name: t4
-  server: https://kubernetes.default.svc
-  env: t4
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cluster1-config
+  namespace: argocd
+data:
+  cluster: |
+    server: https://kubernetes.default.svc
+    namespace: dev
+    name: dev
